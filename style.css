@@ -1,0 +1,53 @@
+.header-text  {
+  margin: 5px;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+     .img-logo {
+       min-height: 200px;
+       max-width: 200px;
+     }
+     .header-text {
+       font-size: 60px;
+       }
+}
+
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+     /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
+     .img-logo {
+       min-height: 100px;
+       max-width: 100px;
+     }
+     .header-text {
+       font-size: 48px;
+       }
+}
+
+@media screen and (max-width: 479px) {
+     /* start of phone styles */
+     /* It's possible to hide the image if the screen becomes too small */
+     .img-logo {
+       min-height: 60px;
+       max-width: 60px;
+     }
+     .header-text {
+       font-size: 24px;
+       }
+}
+
+hr {
+  display: block;
+  border: none;
+  height: 3px;
+  background-color: #7d97ad;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+
+.project-content {
+  margin: 5px;
+}
