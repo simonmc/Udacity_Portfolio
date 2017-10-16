@@ -44,7 +44,7 @@
 }
 
 .feature-image {
-  border: 5px;
+  border: 10px;
 }
 
 hr {
@@ -57,15 +57,9 @@ hr {
   }
 
 .project-content {
-  margin: 5px;
   text-transform: uppercase;
 }
 
-.featured-title {
-  margin-left: 10px;
-
-}
 .project-title {
   text-align: center;
-
 }
