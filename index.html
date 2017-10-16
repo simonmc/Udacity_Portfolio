@@ -6,45 +6,52 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-header" style="margin: 5px">
-      <div class="pull-left">
-        <img src="img/udacity_logo.png" class="img-logo" alt="logo">
-      </div>
-      <div class="pull-right">
-        <h1 class="text-right header-text">Simon McMillan</h1>
-        <h1 class="text-right header-text"><small>Front-End Ninja</small></h1>
-      </div>
-      <div class="clearfix"></div>
-  </div>
-  <hr />
-  <div>
-    <img src="img/html-code.jpg" class="img-responsive" alt="Feature Image" style="border: 5px">
-  </div>
-  <section>
-    <h2 class="featured-title">Featured Work</h2>
-    <div class="project-content row">
-      <div class="col-sm-4">
-        <a href="https://github.com/simonmc/Udacity_Movie_Project">
-        <img src="img/film-project.jpeg" class="img-responsive rounded border" alt="Film Project" style="border: 5px">
-        <h3 class="project-title">80s Movies</h3>
-        </a>
-      </div>
-      <div class="col-sm-4">
-        <a href="https://github.com/simonmc/Udacity_Logs">
-        <img src="img/logs-project.jpeg" class="img-responsive" alt="Logs Project" style="border: 5px">
-        <h3 class="project-title">Logs</h3>
-        </a>
-      </div>
-      <div class="col-sm-4">
-        <a href="https://github.com/simonmc/Udacity_Map">
-        <img src="img/map-project.jpeg" class="img-responsive" alt="Map Project" style="border: 5px">
-        <h3 class="project-title">Map</h3>
-        </a>
-      </div>
+  <container>
+    <div class="page-header row">
+        <div class="col-xs-3 pull-left">
+          <img src="img/udacity_logo.png" class="img-logo" alt="logo">
+        </div>
+        <div class="col-xs-9 pull-right">
+          <h1 class="text-right header-text">Simon McMillan</h1>
+          <h1 class="text-right header-text"><small>Front-End Ninja</small></h1>
+        </div>
+        <div class="clearfix"></div>
     </div>
-  </section>
+    <div class="row">
+        <div class="col-xs-12">
+    <hr />
+  </div>
+    <div class="feature-image row">
+        <div class="col-xs-12">
+        <img src="img/html-code.jpg" class="img-responsive" alt="Feature Image">
+        </div>
+    </div>
+    <section class="project-content">
+      <h2 class="featured-title">Featured Work</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="https://github.com/simonmc/Udacity_Movie_Project">
+          <img src="img/film-project.jpeg" class="img-responsive rounded border" alt="Film Project">
+          <p class="project-title">80s Movies</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://github.com/simonmc/Udacity_Logs">
+          <img src="img/logs-project.jpeg" class="img-responsive rounded" alt="Logs Project">
+          <p class="project-title">Logs</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://github.com/simonmc/Udacity_Map">
+          <img src="img/map-project.jpeg" class="img-responsive rounded border" alt="Map Project">
+          <p class="project-title">Map</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </container>
 </body>
 </html>
